@@ -1,8 +1,11 @@
 import React, {Component} from 'react';
 import {Text,View } from 'react-native';
-import { Icon } from 'react-native-elements';
+import { Icon ,Button} from 'react-native-elements';
 
 export default class Settings extends Component {
+    static navigationOptions = {
+        header: null
+    }
     
     render() {
         const {containerStyle}=Style;
@@ -17,6 +20,12 @@ export default class Settings extends Component {
             <Text style={{fontSize:20,fontWeight:"bold",marginLeft: 15,marginTop:8}}>Settings</Text>
 
         </View>
+
+        <Button
+             containerStyle={{marginTop:20,alignSelf:"center"}}
+              onPress={()=>this.props.navigation.navigate("Profile")}
+              title="Go to Profile "
+              ></Button>
         </View>
         );
     }

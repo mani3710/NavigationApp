@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "NavApp",
-    "slug": "NavApp",
+    "name": "nav",
+    "slug": "nav",
     "privacy": "public",
     "sdkVersion": "33.0.0",
     "platforms": [
@@ -9,19 +9,25 @@
       "android",
       "web"
     ],
-
     "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/idea-2.png",
     "android": {
-      "package": "com.NavAPP.mdl",
+      "package": "com.Nav.test",
       "versionCode": 2,
-      "icon": "./assets/idea-2.png"
+      "icon": "./assets/icon.png"
+    },
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "assets/*"
+    ],
     "ios": {
       "supportsTablet": true
     }
