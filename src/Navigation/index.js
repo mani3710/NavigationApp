@@ -23,14 +23,20 @@ const MainNav = createStackNavigator({
    Profile:{screen:ProfileScreen},
    Story:{screen:StoryScreen},
    Like:{screen:LikeScreen},
-   Settings:{screen:SettingsScreen},
+//    Settings:{screen:SettingsScreen},
 
 
 
 });
+const SettingNav =  createStackNavigator({
+    Settings:{screen:SettingsScreen},
+    Profile:{screen:ProfileScreen},
+    Story:{screen:StoryScreen}
+});
+
 const DrawNav=createDrawerNavigator({
     Home:{screen:MainNav},
-    Settings:{screen:SettingsScreen},
+    Settings:{screen:SettingNav},
     Logout:{screen:LogoutScreen},
 
     

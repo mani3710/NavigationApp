@@ -2,9 +2,9 @@
   "devToolsPort": 19002,
   "expoServerPort": 19000,
   "packagerPort": 19001,
-  "packagerPid": 1301,
+  "packagerPid": 1066,
   "webpackServerPort": 19003,
-  "expoServerNgrokUrl": "https://th-tg2.manikandan37105.navapp.exp.direct",
-  "packagerNgrokUrl": "https://packager.th-tg2.manikandan37105.navapp.exp.direct",
-  "ngrokPid": 1315
+  "expoServerNgrokUrl": "https://th-tg2.manikandan37105.navigationapp.exp.direct",
+  "packagerNgrokUrl": "https://packager.th-tg2.manikandan37105.navigationapp.exp.direct",
+  "ngrokPid": 1081
 }

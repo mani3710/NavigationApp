@@ -13,10 +13,12 @@ export default class Settings extends Component {
         <View style={{flex:1}}>
             <View style={{flexDirection:"row",width:"100%",marginTop: 20}}>
             <Icon
-                onPress={() => this.props.navigation.goBack()}
-                containerStyle={{ padding: 10,alignSelf:'flex-start' }}
-                name="arrow-back"
-            ></Icon>
+
+                size={30}
+                    onPress={() => this.props.navigation.openDrawer()}
+                    containerStyle={{ padding: 10,alignSelf:'flex-start' }}
+                    name="reorder"
+                ></Icon>
             <Text style={{fontSize:20,fontWeight:"bold",marginLeft: 15,marginTop:8}}>Settings</Text>
 
         </View>
